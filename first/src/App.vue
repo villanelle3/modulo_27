@@ -68,7 +68,7 @@ import { reactive } from 'vue';
     <header class="p-5 mb-4 mt-4 bg-light rounded-3">
       <h1>Minhas Tarefas</h1>
       <p>
-        Você possui {{ getTarefaPnedentes().length }} tarefas pendentes.
+        Você possui {{ getTarefasPendentes().length }} tarefas pendentes.
       </p>
     </header>
     <form action="" @submit.prevent="cadastraTarefa">
